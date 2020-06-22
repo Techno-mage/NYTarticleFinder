@@ -1,6 +1,7 @@
 const APIKEY = "EuxfdCWtzc2EniqUwhAUA7thov6uLhm0";
 
 
+
 function searchArticles(search){
     $.ajax({
         type: "GET",

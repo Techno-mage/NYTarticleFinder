@@ -8,6 +8,31 @@ h1{
     color: white;
     text-align: center
 }
+h4{
+    color: white;
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.title{
+    background-color: #233257;
+}
+.jumbotron{
+    background-color: #233257;
+}
+.search-params, .search-results{
+    border: solid #233257 1px;
+    border-radius: 2;
+}body{
+    margin: auto 6rem;
+}
+h1{
+    font-family: futura-pt-bold, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    text-align: center
+}
 
 h4{
     color: white;
