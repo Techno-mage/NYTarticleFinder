@@ -4,9 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>NYT Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/wxz3fhx.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-3">New York Times Search</h1>
+            </div>
+        </div>
+    </header>
+    <!-- use class to style elements and id's to reference them in js -->
+    <section class="search-params" id="search-params">
+        <div class="title">
+            <h4>Search Parameters</h4>
+        </div>
+        <div class="search-title" id="search-title">
+            <label> Search Term: </label>    
+            <input> </input>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div>
+                    <label class="mdb-main-label">Select How Many Results to Show</label>
+                </div> 
+                <div>
+                <select class="mdb-select colorful-select dropdown-primary md-form" multiple searchable="Search here..">
+                    <option value="1">1</option>
+                    <option value="5">5</option>
+                    <option value="10">10</option>
+                </select>
+                </div>  
+            </div>
+        </div>
+        <!-- <div class="num-of-records" id="num-of-records">
+            <label> Number of Records to Retrieve </label>    
+            <input> </input>
+        </div> -->
+        <div class="year-search" id="year-search-start">
+            <label> Start Year </label>    
+            <input> </input>
+        </div>
+        <div class="year-search" id="year-search-end">
+            <label> End Year </label>    
+            <input> </input>
+        </div>
+    </section>
+   
+    <section class="search-results" id="search-results">
+        <div class="title">
+            <h4>Search Results</h4>
+        </div>
+    </section>
+
+<script src="script.js"></script>
 </body>
 </html>
