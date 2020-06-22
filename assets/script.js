@@ -16,3 +16,6 @@ function searchArticles(search){
 }
 
 searchArticles("music");
+searchArticles("askfiekdf");
+searchArticles("not the onion");
+searchArticles("");
